@@ -1,0 +1,193 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+header {
+   display: inline;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #cdebf9;
+   text-align: center;
+   color: grey;
+}
+
+nav {
+   background-color: #f9d0cd;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+.ikon{
+   height: 35px;
+}
+
+ nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color:grey;
+}
+nav li {
+   display: inline-block;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+.kiri{
+float: left;
+}
+
+.kanan{
+float: right;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+h2,h3 {
+   color: #ffa27a;
+   }
+
+p {
+   text-align: justify;
+}
+
+.featured-image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+figcaption{
+   text-align: center;
+   font-size: small;
+}
+
+a:link {
+   text-decoration: none;;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+.foto-diri{
+   width: 150px;
+}
+
+.tabel-diri{
+   text-align: left;
+   border:2px dashed #ffa27a;
+   border-collapse:collapse;
+   font-size: 19px;
+   /* border: 1px solid #ffb142 */
+}
+
+.flex-container-column {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+}
+
+.flex-container-row {
+   display: flex;
+}
+
+.button {
+   flex-basis: 13%;
+   text-align: center;
+   border: 1px solid grey;
+   background: -webkit-linear-gradient(top, #cdebf9, #ddd);
+   cursor: pointer;
+}
+
+.button:hover {
+  font-weight: bold;
+}
+
+footer {
+   padding: 20px;
+   color: grey;
+   background-color: #cdebf9;
+   font-weight: bold;
+ }
+
+ .pTengah{
+    text-align: center;
+ }
+
+@media screen and (max-width: 1000px) {
+   
+   .jumbotron {
+      font-size: 15px;
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 15px;
+   }
+  
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+
+   .kanan ,.kiri{
+      float: none;
+   }
+      
+   .kanan{
+      padding-left: 50px;
+   }
+
+   img{
+         max-width: 250px;
+         max-height: 305px;;
+   }
+   
+   nav li{
+         font-size: smaller;
+         margin-right: 10px;
+   }
+}
+
+.riwayat {
+   margin: 30px auto 0 auto;
+   overflow: scroll;
+}
